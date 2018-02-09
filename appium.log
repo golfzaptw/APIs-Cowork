@@ -1,0 +1,72 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 55342
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 55343
+[Appium]   tmpDir: C:\Users\IDOLPH~1\AppData\Local\Temp\\Katalon\Appium\Temp1518061520404
+[Appium] Appium REST http interface listener started on 0.0.0.0:55342
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 72 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\APK\\riderr.apk","autoGrantPermissions":true,"default":true,"deviceId":"192.168.29.101:5555","deviceName":"unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"192.168.29.101:5555"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\APK\\riderr.apk","autoGrantPermissions":true,"default":true,"deviceId":"192.168.29.101:5555","deviceName":"unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"192.168.29.101:5555"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\iDolp... into desiredCapabilities object {"app":"C:\\Users\\iDolphinz\\git\\Riderr-Test\...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   default: true
+[Appium]   deviceId: 192.168.29.101:5555
+[Appium]   deviceName: unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 192.168.29.101:5555
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: default, deviceId, platform.
+[BaseDriver] Session created with session id: 8008835a-2966-483a-9c1f-bf5a41266030
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\iDolphinz\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 192.168.29.101:5555
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\iDolphinz\.katalon\tools\android_sdk\build-tools\27.0.3\aapt.exe
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/7e217af7d5879c15f28abce4b4028ba0.apk
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 8008835a-2966-483a-9c1f-bf5a41266030 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 12267 ms - 1313 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/timeouts 200 7 ms - 76 
+[HTTP] --> GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/source {}
+[HTTP] <-- GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/source 200 48 ms - 3954 
+[HTTP] --> GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/screenshot {}
+[HTTP] <-- GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/screenshot 200 2457 ms - 1062126 
+[HTTP] --> GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/source {}
+[HTTP] <-- GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/source 200 54 ms - 36293 
+[HTTP] --> GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/screenshot {}
+[HTTP] <-- GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/screenshot 200 2083 ms - 303814 
+[HTTP] --> GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/source {}
+[HTTP] <-- GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/source 200 19 ms - 8096 
+[HTTP] --> GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/screenshot {}
+[HTTP] <-- GET /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030/screenshot 200 1956 ms - 271822 
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 8008835a-2966-483a-9c1f-bf5a41266030 from our master session list
+[HTTP] --> DELETE /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030 {}
+[HTTP] <-- DELETE /wd/hub/session/8008835a-2966-483a-9c1f-bf5a41266030 404 2 ms - 131 

@@ -1,0 +1,246 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 58744
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 58745
+[Appium]   tmpDir: C:\Users\IDOLPH~1\AppData\Local\Temp\\Katalon\Appium\Temp1518063612823
+[Appium] Appium REST http interface listener started on 0.0.0.0:58744
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 9 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\APK\\riderr.apk","autoGrantPermissions":true,"default":true,"deviceId":"192.168.29.101:5555","deviceName":"unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"192.168.29.101:5555"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\APK\\riderr.apk","autoGrantPermissions":true,"default":true,"deviceId":"192.168.29.101:5555","deviceName":"unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"192.168.29.101:5555"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\iDolp... into desiredCapabilities object {"app":"C:\\Users\\iDolphinz\\git\\Riderr-Test\...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   default: true
+[Appium]   deviceId: 192.168.29.101:5555
+[Appium]   deviceName: unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 192.168.29.101:5555
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: default, deviceId, platform.
+[BaseDriver] Session created with session id: 58386dfd-d719-49ef-ae4d-44bf6d3cd871
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\iDolphinz\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 192.168.29.101:5555
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\iDolphinz\.katalon\tools\android_sdk\build-tools\27.0.3\aapt.exe
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/7e217af7d5879c15f28abce4b4028ba0.apk
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 58386dfd-d719-49ef-ae4d-44bf6d3cd871 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 13135 ms - 1313 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/timeouts 200 8 ms - 76 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 13 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageButton\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 3158 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/1/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/1/location 200 120 ms - 86 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 14 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageButton\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 69 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/2/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/2/location 200 16 ms - 86 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/touch/perform {"actions":[{"action":"tap","options":{"element":"2","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/touch/perform 200 921 ms - 76 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 14 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.LinearLayout\").resourceId(\"de.riderr.app.dev:id/layout_guest\").instance(15)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 308 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/3/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/3/location 200 13 ms - 86 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 12 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.LinearLayout\").resourceId(\"de.riderr.app.dev:id/layout_guest\").instance(15)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 706 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 9 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/4/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/4/location 200 8 ms - 86 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/touch/perform {"actions":[{"action":"tap","options":{"element":"4","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/touch/perform 200 162 ms - 76 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 7 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"de.riderr.app.dev:id/et_email\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 1183 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/5/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/5/location 200 11 ms - 88 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 6 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"de.riderr.app.dev:id/et_password\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 37 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/6/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/6/location 200 15 ms - 88 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 6 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"Log In\").resourceId(\"de.riderr.app.dev:id/btn_login\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 31 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/7/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/7/location 200 11 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 6 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"Log In\").resourceId(\"de.riderr.app.dev:id/btn_login\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 38 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/8/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/8/location 200 14 ms - 89 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/touch/perform {"actions":[{"action":"tap","options":{"element":"8","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/touch/perform 200 3218 ms - 76 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 5 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"de.riderr.app.dev:id/et_email\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 63 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/9/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/9/location 200 14 ms - 88 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 7 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"de.riderr.app.dev:id/et_password\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 52 ms - 90 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/10/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/10/location 200 16 ms - 88 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 6 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"Log In\").resourceId(\"de.riderr.app.dev:id/btn_login\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 30 ms - 90 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/11/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/11/location 200 34 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 13 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Register\").resourceId(\"de.riderr.app.dev:id/tv_register\").instance(5)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 63 ms - 90 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 3 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/12/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/12/location 200 15 ms - 89 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/window/current/size 200 6 ms - 100 
+[HTTP] --> POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Forgot Password\").resourceId(\"de.riderr.app.dev:id/tv_forgot_password\").instance(3)"}
+[HTTP] <-- POST /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/elements 200 90 ms - 90 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 4 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2 ms - 1313 
+[HTTP] --> GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/13/location {}
+[HTTP] <-- GET /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871/element/13/location 200 14 ms - 88 
+[HTTP] --> DELETE /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 {}
+[Appium] Removing session 58386dfd-d719-49ef-ae4d-44bf6d3cd871 from our master session list
+[ADB] No uiautomator process found to kill, continuing...
+[HTTP] <-- DELETE /wd/hub/session/58386dfd-d719-49ef-ae4d-44bf6d3cd871 200 2412 ms - 76 

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login with email" time="228" tests="4" failures="0" errors="0">
+   <testsuite name="TS_Login with email" tests="4" failures="0" errors="0" time="228" timestamp="2018-02-08 11:17:00" hostname="iDolphinz - DESKTOP-HF6P904" id="Test Suites/Authentication/Feature_Login/TS_Login with email">
+      <properties>
+         <property name="deviceName" value="unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\Reports\\Authentication\\Feature_Login\\TS_Login with email\\20180208_111647"/>
+         <property name="logFiles" value="C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\Reports\\Authentication\\Feature_Login\\TS_Login with email\\20180208_111647\\appium.log, C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\Reports\\Authentication\\Feature_Login\\TS_Login with email\\20180208_111647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iDolphinz - DESKTOP-HF6P904"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.7.2"/>
+         <property name="deviceModel" value="Google Nexus 5 - 5.1.0 - API 22 - 1080x1920"/>
+         <property name="hostAddress" value="192.168.29.2"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="192.168.29.101:5555"/>
+         <property name="deviceName" value="unknown Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 (Android 5.1)"/>
+         <property name="deviceOSVersion" value="5.1"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin01" classname="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin01" status="PASSED">
+         <system-out><![CDATA[2018-02-08 11:17:00 - [TEST_CASE][PASSED] - Test Cases/Authentication/Feature_Login/Login with email/EmailLogin01: Test Cases/Authentication/Feature_Login/Login with email/EmailLogin01
+
+2018-02-08 11:17:01 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:17:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:17:28 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:17:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:31 - [MESSAGE][PASSED] - Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:17:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:17:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:17:32 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:33 - [MESSAGE][PASSED] - Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:17:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:17:34 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:17:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:35 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:17:35 - [TEST_STEP][PASSED] - setText: Text 'psgolf11@gmail.com' has been set to element 'Object Repository/LOGINPAGE/edt/edt Email Address'
+
+2018-02-08 11:17:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:44 - [MESSAGE][PASSED] - Text 'psgolf11@gmail.com' has been set to element 'Object Repository/LOGINPAGE/edt/edt Email Address'
+
+2018-02-08 11:17:44 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:17:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:44 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:17:44 - [TEST_STEP][PASSED] - setText: Text '123123' has been set to element 'Object Repository/LOGINPAGE/edt/edt Password'
+
+2018-02-08 11:17:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:51 - [MESSAGE][PASSED] - Text '123123' has been set to element 'Object Repository/LOGINPAGE/edt/edt Password'
+
+2018-02-08 11:17:51 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:52 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:17:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:17:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:54 - [MESSAGE][PASSED] - Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:17:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:17:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:17:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:17:56 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Golfza Ptw' successfully
+
+2018-02-08 11:17:57 - [MESSAGE][PASSED] - Scrolling to text 'Golfza Ptw' successfully
+
+2018-02-08 11:17:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-08 11:17:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-08 11:17:59 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-02-08 11:18:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin02" classname="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin02" status="PASSED">
+         <system-out><![CDATA[2018-02-08 11:18:04 - [TEST_CASE][PASSED] - Test Cases/Authentication/Feature_Login/Login with email/EmailLogin02: Test Cases/Authentication/Feature_Login/Login with email/EmailLogin02
+
+2018-02-08 11:18:04 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:18:30 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:18:30 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:32 - [MESSAGE][PASSED] - Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:18:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:18:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:18:34 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:18:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:35 - [MESSAGE][PASSED] - Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:18:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:18:36 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:37 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:18:37 - [TEST_STEP][PASSED] - setText: Text 'psgolf11@gmail.com' has been set to element 'Object Repository/LOGINPAGE/edt/edt Email Address'
+
+2018-02-08 11:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:46 - [MESSAGE][PASSED] - Text 'psgolf11@gmail.com' has been set to element 'Object Repository/LOGINPAGE/edt/edt Email Address'
+
+2018-02-08 11:18:46 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:18:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:46 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:18:46 - [TEST_STEP][PASSED] - setText: Text '1234567' has been set to element 'Object Repository/LOGINPAGE/edt/edt Password'
+
+2018-02-08 11:18:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:53 - [MESSAGE][PASSED] - Text '1234567' has been set to element 'Object Repository/LOGINPAGE/edt/edt Password'
+
+2018-02-08 11:18:53 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:54 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:18:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:18:54 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:18:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:18:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:18:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/txt/txt Register' is present
+
+2018-02-08 11:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/txt/txt Register' is present
+
+2018-02-08 11:18:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/txt/txt Forgot Password' is present
+
+2018-02-08 11:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/txt/txt Forgot Password' is present
+
+2018-02-08 11:18:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-08 11:18:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-08 11:18:58 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-02-08 11:19:01 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin03" classname="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin03" status="PASSED">
+         <system-out><![CDATA[2018-02-08 11:19:01 - [TEST_CASE][PASSED] - Test Cases/Authentication/Feature_Login/Login with email/EmailLogin03: Test Cases/Authentication/Feature_Login/Login with email/EmailLogin03
+
+2018-02-08 11:19:01 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:19:21 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:19:21 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:19:38 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:19:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:43 - [MESSAGE][PASSED] - Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:19:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:19:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:45 - [MESSAGE][PASSED] - Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:19:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:19:45 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:46 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:19:46 - [TEST_STEP][PASSED] - setText: Text 'psgolf11@gmail.com' has been set to element 'Object Repository/LOGINPAGE/edt/edt Email Address'
+
+2018-02-08 11:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:55 - [MESSAGE][PASSED] - Text 'psgolf11@gmail.com' has been set to element 'Object Repository/LOGINPAGE/edt/edt Email Address'
+
+2018-02-08 11:19:55 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:19:56 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:19:56 - [TEST_STEP][PASSED] - setText: Text '12' has been set to element 'Object Repository/LOGINPAGE/edt/edt Password'
+
+2018-02-08 11:19:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:03 - [MESSAGE][PASSED] - Text '12' has been set to element 'Object Repository/LOGINPAGE/edt/edt Password'
+
+2018-02-08 11:20:03 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:04 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:20:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:07 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:20:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:07 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:20:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:07 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/txt/txt Register' is present
+
+2018-02-08 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:08 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/txt/txt Register' is present
+
+2018-02-08 11:20:08 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/txt/txt Forgot Password' is present
+
+2018-02-08 11:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:08 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/txt/txt Forgot Password' is present
+
+2018-02-08 11:20:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-08 11:20:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-08 11:20:10 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-02-08 11:20:12 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin04" classname="Test Cases/Authentication/Feature_Login/Login with email/EmailLogin04" status="PASSED">
+         <system-out><![CDATA[2018-02-08 11:20:12 - [TEST_CASE][PASSED] - Test Cases/Authentication/Feature_Login/Login with email/EmailLogin04: Test Cases/Authentication/Feature_Login/Login with email/EmailLogin04
+
+2018-02-08 11:20:12 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:20:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iDolphinz\git\Riderr-Test\Andriod\APK\riderr.apk'
+
+2018-02-08 11:20:32 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:36 - [MESSAGE][PASSED] - Element 'Object Repository/HOME_PAGE/gotoNavbar' is present
+
+2018-02-08 11:20:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HOME_PAGE/gotoNavbar'
+
+2018-02-08 11:20:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:37 - [MESSAGE][PASSED] - Element 'Object Repository/INSIDE_NAVBAR/navbarLogin' is present
+
+2018-02-08 11:20:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INSIDE_NAVBAR/navbarLogin'
+
+2018-02-08 11:20:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:20:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:39 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:20:39 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:20:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:40 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:20:40 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:40 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGINPAGE/btn/btn Log In'
+
+2018-02-08 11:20:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:20:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:43 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Email Address' is present
+
+2018-02-08 11:20:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:20:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:43 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/edt/edt Password' is present
+
+2018-02-08 11:20:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:43 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/btn/btn Log In' is present
+
+2018-02-08 11:20:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/txt/txt Register' is present
+
+2018-02-08 11:20:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:43 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/txt/txt Register' is present
+
+2018-02-08 11:20:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/LOGINPAGE/txt/txt Forgot Password' is present
+
+2018-02-08 11:20:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-08 11:20:44 - [MESSAGE][PASSED] - Element 'Object Repository/LOGINPAGE/txt/txt Forgot Password' is present
+
+2018-02-08 11:20:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-08 11:20:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-08 11:20:46 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-02-08 11:20:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-08 11:17:00 - [TEST_SUITE][PASSED] - TS_Login with email: Test Cases/Authentication/Feature_Login/Login with email/EmailLogin04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
