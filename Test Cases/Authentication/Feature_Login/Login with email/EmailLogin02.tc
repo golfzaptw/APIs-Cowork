@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testcase : https://goo.gl/i4XK4D</description>
-   <name>EmailLogin02</name>
-   <tag>Feature Login</tag>
-   <comment></comment>
-   <testCaseGuid>51105781-41fc-4e8b-9562-880002575423</testCaseGuid>
-</TestCaseEntity>

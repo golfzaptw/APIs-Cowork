@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testcase : https://goo.gl/i4XK4D</description>
-   <name>EmailRegister04</name>
-   <tag>Feature Register</tag>
-   <comment></comment>
-   <testCaseGuid>0c8c5a9a-e0fd-44d0-afa2-e15ef62c2d9d</testCaseGuid>
-</TestCaseEntity>

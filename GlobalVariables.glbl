@@ -3,58 +3,8 @@
    <description></description>
    <tag></tag>
    <GlobalVariableEntity>
-      <description>ที่เก็บ apk</description>
-      <initValue>'C:\\Users\\iDolphinz\\git\\Riderr-Test\\Andriod\\APK\\riderr.apk'</initValue>
-      <name>APK_URL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description></description>
-      <initValue>'Invalidated email format'</initValue>
-      <name>ERROR_FORMAT_EMAIL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>WRONG_PASS</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Your passwords are not match'</initValue>
-      <name>WRONG_PASSNOTMATCH</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Your password must be 6–30 characters length.'</initValue>
-      <name>ERROR_PASS630</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Required Email Address'</initValue>
-      <name>REQ_EMAIL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Required Password'</initValue>
-      <name>REQ_PASS</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Required Retype New Password'</initValue>
-      <name>REQ_REPASS</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Required Profile Image'</initValue>
-      <name>REQ_IMAGE</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'The email has already been taken.'</initValue>
-      <name>ERROR_EMAIL_ALREADY</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Required Full Name'</initValue>
-      <name>REQ_NAME</name>
+      <initValue>'https://api-co-work.herokuapp.com/'</initValue>
+      <name>server</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
