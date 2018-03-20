@@ -27,5 +27,4 @@ WS.verifyElementPropertyValue(response, 'data.rarting[0]', '5')
 
 WS.verifyElementPropertyValue(response, 'data.gellery[0].image_01', 'https://s3-ap-southeast-1.amazonaws.com/co-working-20scoops/152144037899501.jpg')
 
-WS.verifyElementPropertyValue(response, 'data.address[0]', '101 20scoops sutap mern chiangmail 54000')
-
+WS.verifyElementPropertyValue(response, 'data.address[0]', 'd101 20scoops sutap mern chiangmail 54000')
