@@ -7,4 +7,24 @@
       <initValue>'https://api-co-work.herokuapp.com/'</initValue>
       <name>server</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['success', 'data', '_id', 'name', 'rarting', 'address', 'gellery', 'status']</initValue>
+      <name>list_response</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['success', 'data', 'id', 'name', 'email', 'status', 'image']</initValue>
+      <name>emailLogin_response</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['success', 'data', '_id', 'name', 'email', 'password', 'image', 'status', 'facebook_id']</initValue>
+      <name>fbLogin_response</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['success', 'data', '_id', 'email', 'password', 'role']</initValue>
+      <name>adminLogin_response</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
