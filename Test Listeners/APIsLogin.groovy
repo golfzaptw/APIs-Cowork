@@ -28,7 +28,7 @@ class APIsLogin {
 	private RequestObject emailLogin = findTestObject('Object Repository/Login/emailLogin')
 	private RequestObject facebookLogin = findTestObject('Object Repository/Login/facebookLogin')
 	private RequestObject adminLogin = findTestObject('Object Repository/Login/adminLogin')
-	private String facebook_id = "364537690693538"
+	private String facebook_id = "893992480804425"
 	
 	def response
 	
@@ -57,8 +57,8 @@ class APIsLogin {
 
 	def setHttpBodyEmailTrue() {
 		String messageJSON = 	'{\
-								"email" : "psgolf16@gmail.com",\
-								"password" : "123123"\
+								"email" : "psgolf11@gmail.com",\
+								"password" : "123456"\
 								}'
 		emailLogin.setHttpBody(messageJSON)
 		postAPIEmailLogin()
