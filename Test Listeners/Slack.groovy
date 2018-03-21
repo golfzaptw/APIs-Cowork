@@ -65,7 +65,7 @@ class Slack {
 		//Map variables = testCaseContext.getTestCaseVariables()
 //		slackMessage.setHttpBody('{"text": "Test APIs : ' + testCaseContext.getTestCaseId() + ': ' + testCaseStatus + '"}"')
 //		postToSlack()
-			slackMessage.setHttpBody('{"text": " @Chart Test APIs : ' + result + ': ' + testCaseStatus + '"}"')
+			slackMessage.setHttpBody('{"text": "Test APIs : ' + result + ': ' + testCaseStatus + '"}"')
 			postToSlack()
 		if (!testCaseStatus.equals("PASSED")){
 			testSuiteStatus = "FAILED"

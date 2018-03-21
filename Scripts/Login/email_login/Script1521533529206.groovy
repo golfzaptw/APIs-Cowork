@@ -25,6 +25,8 @@ emailLogin.setHttpBodyEmailTrue()
 
 WS.verifyElementPropertyValue(emailLogin.response, 'success', 'true')
 
-WS.verifyElementPropertyValue(emailLogin.response, 'data.email', 'psgolf16@gmail.com')
+WS.verifyElementPropertyValue(emailLogin.response, 'data.email', 'psgolf11@gmail.com')
+
+WS.verifyElementPropertyValue(emailLogin.response, 'data.name', 'patawee')
 
 

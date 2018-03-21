@@ -57,8 +57,8 @@ class APIsLogin {
 
 	def setHttpBodyEmailTrue() {
 		String messageJSON = 	'{\
-								"email" : "psgolf11@gmail.com",\
-								"password" : "123456"\
+									"email" : "psgolf11@gmail.com",\
+									"password" : "123456"\
 								}'
 		emailLogin.setHttpBody(messageJSON)
 		postAPIEmailLogin()
