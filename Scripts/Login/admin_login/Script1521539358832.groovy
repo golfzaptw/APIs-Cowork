@@ -23,10 +23,8 @@ APIsLogin adminLogin = new APIsLogin()
 
 adminLogin.setHttpBodyAdminSuccess()
 
-WS.verifyElementPropertyValue(adminLogin.response, 'success', 'true')
-
-WS.verifyElementPropertyValue(adminLogin.response, 'data.email', 'admin@admin.admin')
-
-WS.verifyElementPropertyValue(adminLogin.response, 'data.role', 'admin')
+for (int i = 0; i < GlobalVariable.adminLogin_response.size(); i++) {
+	WS.containsString(adminLogin.response, GlobalVariable.adminLogin_response[i], false)
+}
 
 

@@ -29,7 +29,7 @@ WS.verifyElementPropertyValue(facebookLogin.response, 'data.error', 'Do not have
 
 facebookLogin.setHttpBodyFacebookSuccess()
 
-WS.verifyElementPropertyValue(facebookLogin.response, 'success', 'true')
-
-WS.verifyElementPropertyValue(facebookLogin.response, 'data.facebook_id', facebookLogin.facebook_id)
+for (int i = 0; i < GlobalVariable.fbLogin_response.size(); i++) {
+	WS.containsString(facebookLogin.response, GlobalVariable.fbLogin_response[i], false)
+}
 

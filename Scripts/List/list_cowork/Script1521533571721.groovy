@@ -21,10 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 
 def response = WS.sendRequest(findTestObject('List/listCowork'))
 
-WS.verifyElementPropertyValue(response, 'data.name[0]', 'co-working_27')
-
-WS.verifyElementPropertyValue(response, 'data.rarting[0]', '5')
-
-WS.verifyElementPropertyValue(response, 'data.gellery[0].image_01', 'https://s3-ap-southeast-1.amazonaws.com/co-working-20scoops/152144037899501.jpg')
-
-WS.verifyElementPropertyValue(response, 'data.address[0]', '101 20scoops sutap mern chiangmail 54000')
+for (int i = 0; i < GlobalVariable.list_response.size(); i++) {
+	WS.containsString(response, GlobalVariable.list_response[i], false)
+}

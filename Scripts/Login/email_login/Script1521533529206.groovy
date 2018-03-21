@@ -23,10 +23,9 @@ APIsLogin emailLogin = new APIsLogin()
 
 emailLogin.setHttpBodyEmailTrue()
 
-WS.verifyElementPropertyValue(emailLogin.response, 'success', 'true')
+for (int i = 0; i < GlobalVariable.emailLogin_response.size(); i++) {
+	WS.containsString(emailLogin.response, GlobalVariable.emailLogin_response[i], false)
+}
 
-WS.verifyElementPropertyValue(emailLogin.response, 'data.email', 'psgolf11@gmail.com')
-
-WS.verifyElementPropertyValue(emailLogin.response, 'data.name', 'patawee')
 
 
