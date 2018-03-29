@@ -19,13 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-APIsLogin emailLogin = new APIsLogin()
+def response = WS.sendRequest(findTestObject('Forgot Password/forgotPassword'))
 
-emailLogin.setHttpBodyEmailTrue()
+WS.verifyElementPropertyValue(response, 'success', 'false')
 
-for (int i = 0; i < GlobalVariable.emailLogin_response.size(); i++) {
-    WS.containsString(emailLogin.response, GlobalVariable.emailLogin_response[i], false)
-}
-
-WS.verifyElementPropertyValue(emailLogin.response, 'data.name', 'Semaphore CI')
+WS.verifyElementPropertyValue(response, 'data.error', 'This email do not sing up')
 
